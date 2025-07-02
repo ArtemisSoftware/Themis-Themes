@@ -31,6 +31,7 @@ val ColorScheme.extraColor: Color @Composable get() = extendedColor(
 
 val Shapes = Shapes(
     extraSmall = RoundedCornerShape(5.dp),
+    small = RoundedCornerShape(10.dp),
     medium = RoundedCornerShape(15.dp)
 )
 
