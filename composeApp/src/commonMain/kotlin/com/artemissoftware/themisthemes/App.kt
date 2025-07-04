@@ -14,6 +14,7 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import com.artemissoftware.themisthemes.login.LoginScreen
 import com.artemissoftware.themisthemes.theme.ThemisTheme
+import com.artemissoftware.themisthemes.todo.presentation.TodoScreen
 import org.jetbrains.compose.resources.painterResource
 import org.jetbrains.compose.ui.tooling.preview.Preview
 
@@ -24,6 +25,7 @@ import themisthemes.composeapp.generated.resources.compose_multiplatform
 @Preview
 fun App() {
     ThemisTheme {
-        LoginScreen()
+        //LoginScreen()
+        TodoScreen()
     }
 }
